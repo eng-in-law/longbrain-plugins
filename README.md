@@ -9,9 +9,8 @@ Persistent memory for Claude — remembers your preferences, decisions, and less
 1. Settings → Plugins → Add Marketplace
 2. Enter: `eng-in-law/longbrain-plugins`
 3. Install the **longbrain** plugin
-4. Set environment variables:
-   - `LONGBRAIN_API_KEY` — your API key from [connect.longbrain.me](https://connect.longbrain.me)
-   - `LONGBRAIN_BRAIN_ID` — your brain ID (e.g., `my-brain`)
+4. A browser window opens — sign in with your email
+5. Done! Claude now remembers across sessions.
 
 ### Claude Code (CLI)
 
@@ -20,16 +19,11 @@ Persistent memory for Claude — remembers your preferences, decisions, and less
 /plugin install longbrain@longbrain
 ```
 
-Set environment variables:
+On first use, a browser window opens for sign-in.
 
-```bash
-export LONGBRAIN_API_KEY=your-api-key
-export LONGBRAIN_BRAIN_ID=your-brain-id
-```
+## Get your brain
 
-## Get your API key
-
-Visit [connect.longbrain.me](https://connect.longbrain.me) to create a brain and get your API key.
+Visit [connect.longbrain.me](https://connect.longbrain.me) to create a brain and manage settings.
 
 ## Tools
 
