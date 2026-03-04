@@ -1,0 +1,25 @@
+{
+  "name": "longbrain",
+  "owner": {
+    "name": "LongBrain",
+    "email": "ssh.aerospace@gmail.com"
+  },
+  "metadata": {
+    "description": "Persistent memory for Claude — remembers your preferences, decisions, and lessons across sessions."
+  },
+  "plugins": [
+    {
+      "name": "longbrain",
+      "source": "./plugins/longbrain",
+      "description": "Persistent memory for Claude. Remembers your preferences, past decisions, and lessons learned across sessions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "LongBrain"
+      },
+      "homepage": "https://longbrain.me",
+      "repository": "https://github.com/eng-in-law/longbrain-plugins",
+      "keywords": ["memory", "persistence", "brain", "mcp"],
+      "category": "productivity"
+    }
+  ]
+}
